@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Serif", serif;
+}
+
+.container{
+  margin: auto;
+  max-width:  1366px;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.ulnav {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.ulnav > li {
+  margin-right: 20px;
+}
+
+.ulnav > li > button {
+  font-weight: 1000;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  font-weight: 1000;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 > span {
+  color: #ff9638;
+}
+
+.main {
+  display: flex;
+   flex-wrap: wrap;
+}
+
+.main > img {
+  margin-left: 10px;
+  margin-right: 260px;
+}
+
+.main > ul {
+	 max-width:  766px;
+	 width:  100%;
+  list-style: none;
+  flex-wrap: wrap;
+  
+}
+.main > ul > li > h2::before {
+  content: "•";
+  color: #ff9638;
+  border-radius: 50px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.main > ul > li > p {
+  margin-left: 20px;
+}
+
+.sec1 {
+  padding: 20px 80px;
+}
+
+.sec2 {
+  background-color: rgb(23, 17, 17);
+  padding: 20px 200px;
+}
+
+.sec2h {
+  text-align: center;
+  color: white;
+}
+.sec2h > span {
+  color: rgb(70, 70, 215);
+  font-size: 18px;
+}
+
+
+.sec2 > .container > ul {
+ 
+  list-style: none;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 200px;
+}
+
+.sec2 > .container > ul > li > img {
+  display: block;
+}
+
+.sec3 > .container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sec3 > .container > h2 {
+  text-align: center;
+}
+
+.sec3 > .container > h2 > span {
+  color: rgb(70, 70, 215);
+  font-size: 18px;
+}
+
+.sec3 > .container > .sec3flex > ul {
+  list-style: none;
+   
+}
+
+.sec3 > .container > .sec3flex > img {
+  width: 300px;
+  height: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.sec3 > .container > .sec3flex > ul > li > div > span {
+  color: rgb(70, 70, 215);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.sec3 > .container > .sec3flex > ul > li > div > p {
+  color: #ff9638;
+}
+
+.sec3li {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.sec3flex {
+  display: flex;
+}
+
+footer{
+    background-color: #ff9638;
+}
+
+.foot {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
